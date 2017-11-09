@@ -1,17 +1,42 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<title>任家大院</title>
 	<style type="text/css">
-		#img1{
-			transform:rotate(90deg);
-			order:1px solid red;
-			margin-top: 100;
-			margin-left: 200;
+	    #body{text-align:center}
+	    .mytitle{
+            float: left;
+	    	text-align: center;
+	    } 
+
+		.img1{
+			height:430px;
+			width:556px;
+			margin-left: 2px;
+			transform: rotate(90deg);
 		} 
+       
+        .div1{
+        	margin-left: 35%;
+        	height:800px;
+			width:430px;
+        	border: 1px solid red;
+        }
+         .headdiv{
+        	border: 1px solid red;
+        	text-align: center;
+        	background-color: #99cc99;
+        	font-size: 24px;
+        	color: #FF00FF;
+
+        }
 	</style>
 </head>
 
-<body>
-	<img id="img1" height="430" width="556" src="./image/me.jpeg">
+<body id=“body”>
+	<div class="div1" >
+		<div class="headdiv"><p>依然还是那么帅</p></div>
+	    <img class = "img1"  src="./image/me.jpeg">
+	</div>
 </body>
 </html>
